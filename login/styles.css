@@ -1,0 +1,64 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 150%;
+  background-color: #eee;
+}
+
+#content {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login {
+  width: 20rem;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 2rem;
+  border: 2px solid #eaeaea;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  margin: 0.25rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  border: 1px rgb(216, 216, 216) solid;
+}
+
+#buttons {
+  display: flex;
+  padding: 0.5rem;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#send {
+  background-color: #53ef4d;
+}
+
+#clear {
+  background-color: #E83F5B;
+}
+
+#login > input {
+  width: 90%;
+  height: 15%;
+}
+
+#buttons > input[type="submit"] {
+  width: 4.5rem;
+}

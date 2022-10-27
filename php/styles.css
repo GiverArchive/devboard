@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #eee;
+}
+
+#content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+#box {
+  width: 75vw;
+  height: 75vh;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  justify-items: center;
+  
+  background-color: white;
+  box-shadow: 4px 4px 32px rgba(0, 0, 0, 0.2);
+  
+  padding: 2rem;
+  border: 2px solid #eaeaea;
+  border-radius: 1rem;
+}
+
+header {
+  width: 75vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-items: start;
+}
+
+.card {
+  width: 12rem;
+  height: 12rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: bold;
+
+  border-radius: 1rem;
+  background-color: #6EE66A;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
